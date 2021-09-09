@@ -21,8 +21,8 @@ body {
     height: 100%;
 }
 
-#select {
-    width: 12rem;
+#select, #select2 {
+    width: 17rem;
     height: 3rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
