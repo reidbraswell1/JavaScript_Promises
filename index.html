@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Promises</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
   </head>
   <body>
-    <main
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      "
-    >
-      <div>
+    <main id="main">
+      <div id="container">
         <h1>JavaScript Promises</h1>
         <p>
           Open the Browser Console to view your work (Right-Click => Inspect or
           fn+F12)
         </p>
+        <select id="select" name="select">
+          <option value="Choose" selected>---Choose---</option>
+          <option value="userWatching">User is Watching</option>
+          <option value="userLeft">User Has Left</option>
+        </select>
+        <h4>Log</h4>
+        <p id="log"></p>
       </div>
     </main>
 
